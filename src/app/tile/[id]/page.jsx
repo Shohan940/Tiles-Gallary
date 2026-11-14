@@ -9,7 +9,7 @@ import TileDetails from "@/components/tile-details/TileDetails";
 async function getTile(id) {
   try {
     const response = await fetch(
-      `http://localhost:3001/tiles/${id}`,
+      `https://tiles-gallary-server.onrender.com/tiles/${id}`,
       { cache: "no-store" }
     );
 

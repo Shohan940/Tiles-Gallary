@@ -7,7 +7,7 @@ import FeaturedTiles from "@/components/home/FeaturedTiles";
 // Fetch Featured Tiles from JSON Server
 async function getFeaturedTiles() {
   try {
-    const response = await fetch("http://localhost:3001/tiles", {
+    const response = await fetch("https://tiles-gallary-server.onrender.com/tiles", {
       cache: "no-store",
     });
 

@@ -5,7 +5,7 @@ import AllTilesList from "@/components/AllTilesList";
 async function getTiles() {
   try {
     const response = await fetch(
-      "http://localhost:3001/tiles",
+      "https://tiles-gallary-server.onrender.com/tiles",
       { cache: "no-store" }
     );
 

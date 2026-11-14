@@ -135,7 +135,7 @@ npm run server
 
 The JSON Server will run at:
 
-`http://localhost:3001`
+`https://tiles-gallary-server.onrender.com/tiles`
 
 ### 6. Start the Development Server
 

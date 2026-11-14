@@ -28,3 +28,63 @@ body {
   margin-inline: auto;
 }
 
+
+.marquee-track {
+  animation: marquee 25s linear infinite;
+}
+
+.marquee-text {
+  flex-shrink: 0;
+  padding-right: 40px;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 600;
+  color: #24231f;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+
+/* Featured Tiles Swiper */
+
+.featured-swiper {
+  width: 100%;
+  padding: 5px 5px 55px;
+}
+
+.featured-swiper .swiper-button-next,
+.featured-swiper .swiper-button-prev {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #24231F;
+  color: white;
+}
+
+.featured-swiper .swiper-button-next::after,
+.featured-swiper .swiper-button-prev::after {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.featured-swiper .swiper-pagination-bullet {
+  background: #B87955;
+  opacity: 0.4;
+}
+
+.featured-swiper .swiper-pagination-bullet-active {
+  background: #24231F;
+  opacity: 1;
+}

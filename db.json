@@ -1,0 +1,53 @@
+
+{
+  "tiles": [
+    {
+      "id": "101",
+      "title": "Modern Marble Tile",
+      "description": "Elegant marble finish for modern interiors.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800",
+      "category": "Marble",
+      "price": 120,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    },
+    {
+      "id": "102",
+      "title": "Geometric Pattern Tile",
+      "description": "Beautiful geometric design for stylish spaces.",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+      "category": "Geometric",
+      "price": 95,
+      "currency": "USD",
+      "dimensions": "30x30 cm",
+      "material": "Porcelain",
+      "inStock": true
+    },
+    {
+      "id": "103",
+      "title": "Classic White Tile",
+      "description": "Minimal white tiles for a clean interior.",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800",
+      "category": "Minimalist",
+      "price": 80,
+      "currency": "USD",
+      "dimensions": "40x40 cm",
+      "material": "Ceramic",
+      "inStock": false
+    },
+    {
+      "id": "104",
+      "title": "Natural Stone Tile",
+      "description": "Natural stone texture for premium interiors.",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
+      "category": "Stone",
+      "price": 150,
+      "currency": "USD",
+      "dimensions": "60x120 cm",
+      "material": "Natural Stone",
+      "inStock": true
+    }
+  ]
+}

@@ -6,17 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
+    "@better-auth/mongo-adapter": "^1.7.23",
+    "better-auth": "^1.7.23",
+    "mongodb": "^7.9.0",
     "next": "16.4.6",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "swiper": "^14.4.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",
     "eslint": "^9",
     "eslint-config-next": "16.4.6",
+    "json-server": "^0.17.4",
     "tailwindcss": "4.3.3"
   }
 }

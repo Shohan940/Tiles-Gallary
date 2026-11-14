@@ -69,7 +69,7 @@ const handleLogout = async () => {
 
               <button
                 onClick={handleLogout}
-                className="px-6 py-3 rounded-full bg-[#24231F] text-white hover:bg-[#B87955]"
+                className="px-6 py-3 rounded bg-[#24231F] text-white hover:bg-[#B87955]"
               >
                 Logout
               </button>
@@ -78,7 +78,7 @@ const handleLogout = async () => {
             !isPending && (
               <Link
                 href="/login"
-                className="px-7 py-3 rounded-full bg-[#24231F] text-white hover:bg-[#B87955]"
+                className="px-7 py-3 rounded bg-[#24231F] text-white hover:bg-[#B87955]"
               >
                 Login
               </Link>
@@ -118,7 +118,7 @@ const handleLogout = async () => {
 
                 <button
                   onClick={handleLogout}
-                  className="px-6 py-3 rounded-full bg-[#24231F] text-white"
+                  className="px-6 py-3 rounded bg-[#24231F] text-white"
                 >
                   Logout
                 </button>
@@ -127,7 +127,7 @@ const handleLogout = async () => {
               <Link
                 href="/login"
                 onClick={() => setMenuOpen(false)}
-                className="inline-block px-7 py-3 rounded-full bg-[#24231F] text-white"
+                className="inline-block px-7 py-3 rounded bg-[#24231F] text-white"
               >
                 Login
               </Link>

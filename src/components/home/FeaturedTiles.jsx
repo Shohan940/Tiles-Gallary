@@ -1,14 +1,9 @@
-
 "use client";
 
 import Link from "next/link";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Autoplay,
-} from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -33,13 +28,16 @@ export default function FeaturedTiles({ tiles }) {
       }}
       breakpoints={{
         640: {
+          slidesPerView: 1,
+        },
+        768: {
           slidesPerView: 2,
         },
         1024: {
           slidesPerView: 3,
         },
         1280: {
-          slidesPerView: 4,
+          slidesPerView: 3,
         },
       }}
       className="featured-swiper !pb-14"
@@ -47,7 +45,6 @@ export default function FeaturedTiles({ tiles }) {
       {tiles.map((tile) => (
         <SwiperSlide key={tile.id} className="h-auto">
           <div className="h-full overflow-hidden rounded-xl bg-white p-4 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-
             {/* Tile Image */}
             <img
               src={tile.image}
@@ -61,9 +58,7 @@ export default function FeaturedTiles({ tiles }) {
                 {tile.title}
               </h2>
 
-              <p className="mt-2 text-sm text-gray-500">
-                {tile.category}
-              </p>
+              <p className="mt-2 text-sm text-gray-500">{tile.category}</p>
 
               {/* Details Button */}
               <Link
@@ -73,7 +68,6 @@ export default function FeaturedTiles({ tiles }) {
                 View Details
               </Link>
             </div>
-
           </div>
         </SwiperSlide>
       ))}
